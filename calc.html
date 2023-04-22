@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/buttons.css">
+        <link rel="stylesheet" href="styles/alert.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
+
+    </head>
+
+    
+    <body>
+        <div class="custom-alert" id="customAlert">
+            <div class="alert-box">
+                <div class="heading">
+                    <u>Checkout</u>
+                </div>
+                <div class="message">
+                    <p id="alert-text">****</p>
+                    <button type="button" class="btn" id="confirm-btn" onclick="hideAlert()">Ok</button>
+                </div>
+            </div>
+        </div>
+            <div class="reciept" id="container">
+                <div><h1 class="headline">Tal's Tip Calculator</h1></div>
+                    <div class="query">
+                        <div>How much was your bill?</div>
+                        <div class="nis-tag">&#8362;</div>
+                        <input id="billamount"  class="text-box" type="text">
+                    </div> 
+                    <div class="query">
+                        <div>How was your service?</div>
+                        <div class="buttons-div">
+                            <button type="button" onclick="tipFunction()" class="btn" id="5" >5%</button>
+                            
+                            <button type="button" onclick="tipFunction()"  class="btn" id="10">10%</button>
+                            
+                            <button type="button" onclick="tipFunction()"  class="btn" id="15">15%</button>
+                           
+                            <button type="button" onclick="tipFunction()"  class="btn" id="20">20%</button>
+                            
+                            <button type="button" onclick="tipFunction()"  class="btn" id="25">25%</button>
+                        </div>
+                    </div>
+                    <div class="query">
+                        <div>How many people sharing the bill?</div>
+                        <input id="peopleAmount" class="text-box" type="text">
+                        <div>
+                            <button type="button" onclick="calcTip();" class="btn" style="margin-top: 30px;
+                            font-size: 30px;">Calculate!</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>        
+           
+        <script defer src="script.js"></script>
+    </body>
+
+
+
+
+</html>

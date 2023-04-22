@@ -1,0 +1,43 @@
+.buttons-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-top: 20px;
+    
+    
+}
+.btn{
+    font-style: italic;
+    cursor: pointer;
+    font-size: 20px;
+    color: wheat;
+    border-radius: 20px;
+    background-color:rgb(205, 28, 28);
+    transition: all ease 1s ;
+    box-shadow:10px 15px 10px rgba(68, 68, 68, 0.5) ;
+}
+
+
+
+.btn:hover{
+    background-color: rgb(220, 149, 19);
+    opacity:0.7;
+    font-weight: bold;
+    color:rgb(205, 28, 28) ;
+}
+
+.active-button{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(220, 149, 19);
+    opacity:0.7;
+    font-weight: bold;
+    color:rgb(205, 28, 28) ;
+    border-radius: 20px;
+}
+
+#confirm-btn{
+    width: 70px;
+    box-shadow: none;
+}
+

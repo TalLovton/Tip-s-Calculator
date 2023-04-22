@@ -1,0 +1,42 @@
+.custom-alert{
+    opacity: 0.9;
+    display: none;
+    position: fixed;
+    margin: auto;
+    z-index: 999;
+    width: 100%;
+
+}
+
+.alert-box{
+    background-color: wheat;
+    border-width: 5px;
+    border-color:rgb(220, 149, 19); 
+    border-style: solid;
+    border-radius: 5px;
+    margin: 150px auto auto auto;
+    height: 170px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 2px 2px 8px black;
+}
+
+.heading{
+    background-color: rgb(243, 179, 61);
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Roboto';
+    padding: 5px;
+}
+
+.message{
+    margin-top: 20px;
+    
+}
+#alert-text{
+    font-style: italic;
+    color: rgb(205, 28, 28);
+    font-size: 25px;
+    
+}
